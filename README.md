@@ -101,11 +101,11 @@ ML / CV ──▶ AI apps ──▶ full-stack ──▶ agents & automation ─
 
 ### 🧰 Tools I actually use
 
-**Languages:** Python · TypeScript · JavaScript · SQL
-**AI / agents:** LLM APIs (Anthropic, OpenAI-compatible, Gemini) · MCP · RAG · agent orchestration · evals · n8n
-**ML / CV:** TensorFlow / Keras · scikit-learn · YOLOv8 (Ultralytics) · OpenCV · MediaPipe · OCR · pandas · NumPy
-**Backend:** FastAPI · Node.js · Flask · Streamlit · SQLite / Drizzle · Supabase · REST
-**Frontend / desktop:** React · Tailwind · Electron
+**Languages:** Python · TypeScript · JavaScript · SQL<br>
+**AI / agents:** LLM APIs (Anthropic, OpenAI-compatible, Gemini) · MCP · RAG · agent orchestration · evals · n8n<br>
+**ML / CV:** TensorFlow / Keras · scikit-learn · YOLOv8 (Ultralytics) · OpenCV · MediaPipe · OCR · pandas · NumPy<br>
+**Backend:** FastAPI · Node.js · Flask · Streamlit · SQLite / Drizzle · Supabase · REST<br>
+**Frontend / desktop:** React · Tailwind · Electron<br>
 **Shipping:** Git · Docker · pytest · Vitest · Playwright · Power BI
 
 ---
