@@ -89,9 +89,9 @@ An autonomous job-intelligence pipeline: discovery → JD analysis → company r
 | 📄 | [**industrial-yolo-ocr**](https://github.com/poshak2004/industrial-yolo-ocr) | YOLOv8 layout detection (title / table / text) on **2,676 real industrial invoice PDFs**, built to feed OCR → structured extraction. mAP@50 0.69 |
 | 🙂 | [**face-ai-foundations**](https://github.com/poshak2004/face-ai-foundations) | Face detection (Haar, MediaPipe), custom-CNN emotion recognition on FER-2013, MobileNet transfer learning for gender, real-time webcam inference |
 | 🌙 | [**luna-soul-guide**](https://github.com/poshak2004/luna-soul-guide) | AI mental-wellness app: chat companion, mood analysis, journaling prompts, weekly summaries via Supabase edge functions + LLM; React/TS |
-| 🛡 | [**fraud_detection**](https://github.com/poshak2004/fraud_detection) | Imbalanced-class fraud classification: LR baseline → RF → gradient boosting, recall-first evaluation, ROC + confusion matrix |
+| 🛡 | [**fraud_detection**](https://github.com/poshak2004/fraud_detection) | Credit-card fraud at 0.17% prevalence: leakage-safe scaling, SMOTE, balanced Random Forest. **Recall 0.83 / precision 0.87, ROC-AUC 0.975** |
 | 🧠 | [**Brain-Tumor-Detection**](https://github.com/poshak2004/Brain-Tumor-Detection) | MRI tumor classifier (TensorFlow CNN) served through a Flask web app |
-| 🔁 | [**end-to-end-ml-pipeline**](https://github.com/poshak2004/end-to-end-ml-pipeline) | Modular preprocess → train → visualize pipeline with an app entry point |
+| 🔁 | [**end-to-end-ml-pipeline**](https://github.com/poshak2004/end-to-end-ml-pipeline) | Raw CSV → sklearn pipeline → model selection → Streamlit app with batch CSV predictions (Ridge R² 0.77 beat Random Forest) |
 
 ```text
 ML / CV ──▶ AI apps ──▶ full-stack ──▶ agents & automation ──▶ AI systems / product engineering
