@@ -1,110 +1,115 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,100:111827&height=180&section=header&text=Poshak%20K&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+# Poshak Kotresha
 
-### 🚀 Data Science & Machine Learning Engineer  
-### 📊 Predictive Modeling • Analytics • End-to-End ML Pipelines
+**AI Product Engineer** · agent systems · governance · automation · ML / CV
 
-<p align="center">
-Turning <b>raw data</b> into <b>measurable business insights</b> using machine learning & analytics
-</p>
+<a href="https://github.com/poshak2004"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=560&lines=Agents+that+do+real+work+%E2%80%94+safely.;Most+restrictive+decision+wins.;No+model+gets+to+rewrite+its+own+policies.;architecture+%E2%86%92+implementation+%E2%86%92+tests+%E2%86%92+ship" alt="typing" /></a>
 
-<p align="center">
-<a href="https://linkedin.com/in/poshak-k">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://mail.google.com/mail/u/0/#inbox?compose=NZVHFzVRFXcGxHqCwKDmSrNpfbhXGLgnRTGwlgrVZHNpWnRbHvpvqvVFMHWBmBkVXbhgdB">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-</p>
+<a href="https://linkedin.com/in/poshak-k"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/Bengaluru-161b22?style=flat-square&logo=googlemaps&logoColor=white" />
+<img src="https://img.shields.io/badge/open_to-AI_Product_%2F_Agent_Engineering-2ea043?style=flat-square" />
 
 </div>
 
----
+```text
+$ whoami
+  B.E. Information Science & Engineering, 2026
+  Operations Executive @ FAFF (personal AI assistant): I work inside a live
+  AI-agent pipeline where tasks go from user to agents to humans and back.
 
-## 💫 About Me
+$ cat focus.txt
+  I build the layer between "the model said so" and "it actually happened":
+  orchestration, deterministic governance, human escalation, evaluation.
+```
 
-I design and build **end-to-end machine learning systems** focused on **predictive modeling and analytics**, with a strong emphasis on **data quality, explainability, evaluation metrics, and production readiness**.
-
-My work covers the complete ML lifecycle — from **exploratory data analysis and feature engineering** to **model training, validation, and deployment** — with real-world use cases such as **fraud detection and predictive analytics**.
-
----
-
-## 🔍 What I’m Working On
-- 📊 Predictive analytics & fraud detection systems  
-- 🧠 Feature engineering, model benchmarking & evaluation pipelines  
-- 🚀 Deploying ML models via **FastAPI** & **Streamlit**  
-- 📈 Building explainable, metrics-driven ML solutions  
+I spend my days on the operations side of an AI-agent product: research, bookings, calls, vendor coordination, escalations and QA.
+My evenings go to the engineering side. Seeing both is why my work is about **control, reliability and humans-in-the-loop**, not just model calls.
 
 ---
 
-## 🤝 Open to Collaborate On
-- Real-world **Data Science & Analytics** projects  
-- Classification & regression problems  
-- ML-powered dashboards & deployed prediction systems  
+### ⚙️ The rule I keep building around
+
+```ts
+// Every applicable rule votes. The most restrictive decision wins.
+const DECISIONS = ['ALLOW', 'RETRY', 'REROUTE', 'WAIT', 'ESCALATE', 'BLOCK'] as const;
+
+// Precedence: safety > system > project > table > role > agent > task
+// Lower layers can only tighten. Safety rules can't be waived.
+// Policies are loaded from code, never from something the model can edit.
+```
+<sub>From <a href="https://github.com/poshak2004/pixel-ai-workbench/blob/main/src/core/governance/types.ts"><code>pixel-ai-workbench/src/core/governance</code></a></sub>
 
 ---
 
-## 🌱 Currently Learning
-- Advanced machine learning techniques  
-- Model validation, hyperparameter tuning & experiment tracking  
-- Production-oriented ML workflows & basic MLOps practices  
+### 🛠 What I'm building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [**PIXEL**](https://github.com/poshak2004/pixel-ai-workbench) · `TypeScript` `Electron`
+A local-first **AI engineering and agent execution environment** for macOS.
+
+`Run → Agent → Role → Model → Provider → Tools → Events → Artifacts → Usage → Eval`
+
+- **Table of Agents:** independent proposals → blind cross-review → rebuttal → adjudication → governance
+- Layered **deterministic governance engine** with approvals
+- DAG workflows: parallel branches, retries, timeouts, cancellation
+- Multi-provider (Anthropic, OpenAI-compatible, Gemini, offline demo), MCP client, sandboxed FS, git worktrees
+- Keys in macOS Keychain, redacted event journal, cost accounting
+- Vitest + Playwright E2E against the packaged app
+
+</td>
+<td width="50%" valign="top">
+
+#### **Governor** · `Python` · _built at work, private_
+A **deterministic control plane for AI-agent workflows**. It sits between agent reasoning and execution.
+
+- Decides `ALLOW` / `BLOCK` / `ESCALATE` per task, with clear precedence
+- Keeps reasoning and governance separate, and escalates to humans by design
+- Learns from outcomes **without** letting a model touch its own code, policy or weights
+- **244 tests passing across 6 suites**
+
+#### **Career OS** · `FastAPI` · _in progress_
+An autonomous job-intelligence pipeline: discovery → JD analysis → company research → profile matching → application → interview prep → feedback loop.
+
+- `jd_analyzer` and `profile_matcher` modules, with a test suite
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 💬 Ask Me About
-- 📈 Data analysis & EDA  
-- 🤖 Predictive modeling workflows  
-- 🛡️ Fraud detection systems  
-- 🧩 Designing reproducible ML pipelines in Python  
+### 🧪 Earlier work: where it started
+
+| | Project | What it is |
+|---|---|---|
+| 📄 | [**industrial-yolo-ocr**](https://github.com/poshak2004/industrial-yolo-ocr) | YOLOv8 layout detection (title / table / text) on **2,676 real industrial invoice PDFs**, built to feed OCR → structured extraction. mAP@50 0.69 |
+| 🙂 | [**face-ai-foundations**](https://github.com/poshak2004/face-ai-foundations) | Face detection (Haar, MediaPipe), custom-CNN emotion recognition on FER-2013, MobileNet transfer learning for gender, real-time webcam inference |
+| 🌙 | [**luna-soul-guide**](https://github.com/poshak2004/luna-soul-guide) | AI mental-wellness app: chat companion, mood analysis, journaling prompts, weekly summaries via Supabase edge functions + LLM; React/TS |
+| 🛡 | [**fraud_detection**](https://github.com/poshak2004/fraud_detection) | Imbalanced-class fraud classification: LR baseline → RF → gradient boosting, recall-first evaluation, ROC + confusion matrix |
+| 🧠 | [**Brain-Tumor-Detection**](https://github.com/poshak2004/Brain-Tumor-Detection) | MRI tumor classifier (TensorFlow CNN) served through a Flask web app |
+| 🔁 | [**end-to-end-ml-pipeline**](https://github.com/poshak2004/end-to-end-ml-pipeline) | Modular preprocess → train → visualize pipeline with an app entry point |
+
+```text
+ML / CV ──▶ AI apps ──▶ full-stack ──▶ agents & automation ──▶ AI systems / product engineering
+```
 
 ---
 
-## 🧰 Tech Stack
+### 🧰 Tools I actually use
 
-### 🧠 Machine Learning & Data Science
-<p>
-<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-EC0000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
-</p>
-
-### 📊 Data Analysis & Visualization
-<p>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/SciPy-0C55A5?style=for-the-badge&logo=scipy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black"/>
-<img src="https://img.shields.io/badge/Seaborn-0C55A5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
-</p>
-
-### 🚀 Deployment & Experimentation
-<p>
-<img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask"/>
-<img src="https://img.shields.io/badge/Streamlit-FE4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge"/>
-</p>
-
-### 🗄️ Databases & Cloud
-<p>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
-</p>
-
-### 🛠️ Workflow & Tooling
-<p>
-<img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-</p>
+**Languages:** Python · TypeScript · JavaScript · SQL
+**AI / agents:** LLM APIs (Anthropic, OpenAI-compatible, Gemini) · MCP · RAG · agent orchestration · evals · n8n
+**ML / CV:** TensorFlow / Keras · scikit-learn · YOLOv8 (Ultralytics) · OpenCV · MediaPipe · OCR · pandas · NumPy
+**Backend:** FastAPI · Node.js · Flask · Streamlit · SQLite / Drizzle · Supabase · REST
+**Frontend / desktop:** React · Tailwind · Electron
+**Shipping:** Git · Docker · pytest · Vitest · Playwright · Power BI
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:1f2937&height=120&section=footer"/>
+<div align="center">
+<sub>Currently: making agents more boring, in the good way. Predictable, auditable, and quick to hand off to a human.</sub>
+</div>
